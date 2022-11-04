@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/dc37c7fe1c.js" crossorigin="anonymous"></script>
+<body>
+    <a href="" class="humburger">
+        <i class="fas fa-bars"></i>
+    </a>
+
+
+    <a href="" class="phone">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <div class="logo">
+        <i class="fas fa-shoe-prints"></i>
+        <h2>Tenis para corrida</h2>
+        <p>Encontre o tenis perfeito para vc</p>
+    </div>
+
+    <div class="carousel_container">
+        <div class="carousel" id="carousel">
+            <div class="slide" data-bg="cb021c">
+                <img src="/Front End - Hiring Coders  HTML CSS JS/Imagem/foto 3x4 img.jpg" alt="t">
+                <h1>altas performace</h1>
+                <a href="">Compre</a>
+            </div>
+            <div class="slide" data-bg="0D1BF4">
+                <img src="/Front End - Hiring Coders  HTML CSS JS/Imagem/jayne.jpeg" alt="d">
+                <h1>altas performace</h1>
+                <a href="">Compre</a>
+            </div>
+            <div class="slide" data-bg="44CAF9">
+                <img src="/Front End - Hiring Coders  HTML CSS JS/Imagem/pexels-suzy-hazelwood-1629236.jpg" alt="s">
+                <h1>altas performace</h1>
+                <a href="">Compre</a>
+            </div>
+            <div class="slide" data-bg="3F4346">
+                <img src="/Front End - Hiring Coders  HTML CSS JS/Imagem/talita.jpeg" alt="d">
+                <h1>altas performace</h1>
+                <a href="">Compre</a>
+            </div>
+            
+        </div>
+        <button class="seta_esquerda seta" id="left">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="seta_direita seta" id="direita">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+</body>
+
+<script>
+    const slides = document.querySelectorAll(".slide");
+    const carousel = document.getElementById("carousel");
+    const left = document.getElementById("left");
+    const direita = document.getElementById("direita");
+
+    const SLIDES_COUNT = slides.length;
+
+    let current_slide = 0;
+
+    left.addEventListener("click", () => {
+        current_slide--;
+    if (current_slide < 0){
+        current_slide = SLIDES_COUNT -1;
+    }
+    updateCarousel();
+    })
+
+    direita.addEventListener("click", () => {
+        current_slide++;
+    if (current_slide > SLIDES_COUNT -1){
+        current_slide = 0
+    }
+    updateCarousel();
+    })
+
+    function updateCarousel(){
+        carousel.style.transform = `translateX(${
+            -current_slide * slides[0].offsetWidth
+            }px)`;
+        document.body.style.background = `#${slides[current_slide].getAttribute("data-bg")}`
+    }
+
+
+</script>
+</html>

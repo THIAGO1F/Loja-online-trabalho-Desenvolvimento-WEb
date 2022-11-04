@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1600;
+}
+
+
+header {
+    background-color: #11111f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    height: 150px;
+    
+}
+
+.logo{
+    width: 170px;
+    height: 110px;
+    padding-bottom: 10px;
+    margin-left: 29px;
+}
+
+.rede_sociais{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.icon_redes_sociais{
+    margin-right: 15px;
+    color: #47d7ac;
+    transition: 0.5s all;
+}
+
+.icon_redes_sociais:hover{
+    color: #91e7cd;
+    transform: scale(1.5);
+}
+
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.menu_bar{
+    padding-right: 50px;
+}
+
+.menu_bar a{
+    font-size: 16px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #47d7ac;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+
+.perfil{
+    font-size: 16px;
+    margin-right: 55px;
+    text-decoration: none;
+    color: #11111f;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.5s all;
+    background-color: #91e7cd;
+}
+
+.perfil:hover{
+    background-color: #47d7ac;
+}
+
+.menu_bar a:hover{
+    background-color: #47d7ac;
+    border-radius: 2px;
+    color: white;
+}
+
+#campo_pesquisa{
+    padding: 10px;
+    width: 400px;
+    margin-right: 130px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+}
+#campo_pesquisa:hover{
+    background-color: #d7faf0;
+}
+
+#conteudo_primario_main{
+    background-image: linear-gradient(45deg, #91e7cd, #47d7ac);
+    height: 490px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container_assinatura{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    line-height: 25px;
+}
+
+.titulo_toly{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    color: #11111f;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.sub_titulo_toly{
+    font-family: 'Sarala', sans-serif;
+    font-size: 30px;
+    color: #11111f;
+    margin-left: 19px;
+}
+
+.informacao_assinatura{
+    font-family: 'Sarala', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 19px;
+    margin-top: 50px;
+}
+
+#img_assinatura{
+    margin-top: 20px;
+    height: 480px;
+    filter: drop-shadow(0px 40px 50px rgba(0, 0, 0, 0.668));
+}
+
+
+#assinatura{
+    margin-top: 50px;
+    padding: 15px;
+    margin-left: 47px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.493);
+    font-family: 'Sarala' sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffff;
+    background-color: #000000;
+    transition: 0.5s all;
+}
+
+#assinatura:hover{
+    background-image: linear-gradient(45deg,  #91e7cd, #47d7ac);
+    color: #000;
+    font-weight: bold;
+    transform: scale(1.03);
+}
+
+.contaiiner_produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 15px;
+    border-top: 0.1px solid #47d7ac44;
+}
+.produtos{
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    transition: 0.3s all;
+    margin-right: 40px;
+}
+.produtos:hover {
+    transform: scale(1.09);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #47d7ac;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.produtos h3{
+    color: #ffff;
+    font-family: 'Poppins';
+    font-size: 13px;
+
+}
+
+
+#lancamento{
+    transform: scale(1.09);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #47d7ac;
+}
+.sessao_produtos_lancamentos{
+    background-image: linear-gradient(45deg, #91e7cd, #47d7ac);
+    display: flex;
+    flex-direction: column;
+    height: 740px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.top_lancamentos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.top_lancamentos h3{
+    color: #000000;
+    font-family: 'Poppins';
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(0, 0, 0, 0.593);
+    outline: none;
+    box-shadow: 1px 1px 2px #11111f4d;
+}
+.top_lancamentos p{
+    color: #000000;
+    font-family: 'Poppins';
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+#lancamentos_filtro{
+    color: #ffff;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 620px;
+    padding: 9px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.492);
+    background-color: #11111f70;
+    outline: none;
+    box-shadow: 1px 1px 2px #11111f4d;
+    
+}
+
+
+
+#container_produtos_lancamentos{
+    background-color: #1f111438;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 270px;
+}
+
+.produtos_lancamentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #11111f;
+    height: 200px;
+    width: 170px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.508);
+    transition: 0.3s all;
+}
+.produtos_lancamentos:hover{
+    transform: scale(1.02);
+}
+
+.produtos_lancamentos img{
+    width: 100px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.283);
+}
+
+.produtos_lancamentos p{
+    color: #ffff;
+    font-family: 'Sarala';
+    font-size: 12px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+.produtos_lancamentos input{
+    padding: 5px;
+    background-color: #47d7ac;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.379);
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.produtos_lancamentos input:hover{
+    background-color: #d7faf0;
+    transform: rotate(4deg);
+    /*transform: scale(1.02);*/
+    
+}
+
+.continua_paginas{
+    margin-top: 35px; 
+}
+.continua_paginas a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Sarala';
+    margin-right: 20px;
+    padding-top: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 1px;
+    border: 2px solid rgba(0, 0, 0, 0.513);
+    border-radius: 100px;
+    font-size: 12px;
+}
+
+.pg_3{
+    background-color: #11111f76;
+}
+
+
+footer{
+    height: 80px;
+    background-color: #11111f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ body{
+    background-color: #11111f;
+ }
+footer p{
+    color: #ffff;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-size: 9px;
+    line-height: 10px;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #ffff;
+    font-family: 'Poppins';
+    font-size: 9px;
+    line-height: 10px;
+}
+
+
+

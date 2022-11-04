@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+header{
+    height: 50px;
+    background-color: #11111f;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header a{
+    margin-right: 50px;
+    font-size: 20px;
+    color: #47d7ac;
+}
+header a:hover{
+    color: #24faba;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/*#11111f #47d7ac*/
+section{
+    background-color: #47d7ac ;
+    width: 100vh;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+
+section h1{
+    color: #11111f;
+    font-family: 'Sarala';
+    font-size: 30px;
+}
+
+
+.contato{
+    background-color: #11111f;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #fff;
+    width: 100%;
+}
+.contato h2{
+    margin-left: 50px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.informacoes i{
+    color: rgb(95, 32, 140);
+}
+.informacoes i:hover{
+    color: black;
+}
+.informacoes a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffff
+}
+.informacoes a:hover{
+    text-decoration: underline;
+    color: #11111f;
+}
+
+.informacoes_endereco{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 40px;
+    width:65%;
+    font-family: 'Sarala';
+    font-size: 12px;
+    padding-left: 10px;
+}
+.informacoes_endereco p{
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.contato:hover{
+    background-color: #47d7ac;
+    color: #11111f;
+}
+
+.linha{
+    position: absolute;
+    top: 47%;
+    border: 1px solid #fff;
+    left: 25%;
+    height: 100vh;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.394);
+    border-radius: 10px;
+}
+.linha1{
+    position: absolute;
+    top: 47%;
+    border: 1px solid #fff;
+    left: 50%;
+    height: 100vh;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.394);
+    border-radius: 10px;
+}
+.linha2{
+    position: absolute;
+    top: 47%;
+    border: 1px solid #fff;
+    left: 75%;
+    height: 100vh;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.394);
+    border-radius: 10px;
+}
+
+.habilidade{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.habilidades{
+    margin-bottom: 50px;
+}
+
+.habilidades p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Sarala';
+}
+.habilidades i{
+    font-size: 5px;
+    padding-right: 3px;
+    margin-top: 28px;
+
+}
+ 
+.sobre_mim p{
+    width: 230px;
+    font-size: 11px;
+    font-family: 'Poppins';
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.conhecimentos{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: 'Sarala';
+}

@@ -1,0 +1,26 @@
+cores
+    #0BB85E
+    #276B48
+    #066B37
+    #55ED9F
+    #0EEB79
+
+    cursor; pointer;
+    
+
+    mudar o heigh do produtos img imagem dos tenis nos produtos lançamentos
+
+
+    sites usados para pegar imagens
+    masculino
+    https://www.tenisbook.com/puma-avaliacao/
+
+    femenino
+    https://localshopping.com.br/produto/tenis-feminino-ramarim-sneaker-2072201/
+
+fazer butão para voltar a página anterior
+trocar imagens da pagina 4
+login
+linkar o botão sobre em todas as paginas
+se der criar mais 4 paginas
+colocar o favicon nas outtras paginas

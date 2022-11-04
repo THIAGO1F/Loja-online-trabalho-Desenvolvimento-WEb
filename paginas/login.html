@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../estilos/login.css">
+    <link rel="shortcut icon" href="../icones/login_favicon.png" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOLY login</title>
+</head>
+<body>
+    <header>
+        <img src="../imagens/toly_sem_fundo.png" alt="logo_toly">
+        <div class="menu_bar_login">
+            <a href="../index.html" class="icone_tela_inicial"><i class="fa-solid fa-house"></i></a>
+            <a href="">Cadastre-se</a>
+        </div>
+    </header>
+    <div class="content">
+        <div class="slides">
+            <input type="radio" class="check" name="slide" id="slide1" checked>
+            <input type="radio" class="check" name="slide" id="slide2">
+            <input type="radio" class="check" name="slide" id="slide3">
+            <input type="radio" class="check" name="slide" id="slide4">
+            <input type="radio" class="check" name="slide" id="slide5">
+
+            <div class="slide s1">
+                <img src="/imagens/Air Jordan 11 ‘Jeter.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/imagens/Air Jordan 12 OVO.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/imagens/Air Jordan 4 Eminem.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/imagens/Nike Dunk Low Pro SB Pigeon.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/imagens/Nike Yeezy 2 Red October.jpg" alt="">
+            </div>
+        </div>
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+        </div>
+
+        
+    </div>
+    <div class="i"></div>
+    <div class="content_login">
+        <div class="container">
+            <h1>login</h1>
+            <input type="email" name="email" id="email"  placeholder="Email" required>
+            <input type="password" name="senha" id="senha"  placeholder="Senha" required>
+            <input type="submit" value="Entrar" id="btn_entrar">
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/dc37c7fe1c.js" crossorigin="anonymous"></script>
+<script>
+    let count = 1;
+    document.getElementById('slide1').checked = true;
+    setInterval(function(){
+        nextImage();
+    }, 5000)
+
+    function nextImage(){
+        count ++;
+        if (count > 4){
+            count = 1;
+        }
+
+        document.getElementById('slide'+count).checked = true;
+    }
+</script>
+</html>

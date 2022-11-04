@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Link da Fonte -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link do simbolo -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <title>Jayne Maria</title>
+</head>
+
+<body>
+    <a href="../index.html"><i class="fa-sharp fa-solid fa-arrow-left-long"></i></a>
+    <header>
+        <div>
+            <img src="Imagem/talita.jpeg" alt="" class="foto_integrantes">
+        </div>
+        <ul>
+            <li>
+                <a target="+Git" href="#">GitHub</a>
+            </li>
+            <li>
+                <a target="+Linkedin" href="https://www.linkedin.com/in/talita-pontes-42b952247">Linkedin</a>
+            </li>
+            <li>
+                <a target="+Email"  href="#">Email</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Talita Pontes</h1>
+                <h5>Aprendiz de Front-End Delevoper</h5>
+            </div>
+
+            <br>
+
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-chevron-down"></i>
+            </div>
+            
+
+            <div style="display: none" id="about">
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tempora molestiae distinctio necessitatibus maiores ipsa voluptate blanditiis perspiciatis quas? Nihil delectus, repellendus placeat </p>
+            </div>
+            <div class="form">
+                <div>
+                    <p>Deixe o seu contato!</p>
+                </div>
+
+                <form action="">
+                    <input type="text" placeholder="Seu melhor email :)" id="email">
+                    <button>Enviar</button>
+                   <!-- <input type="button" value="Enviar">  -->
+                </form>
+            </div>
+        </section>
+        <div class="continua_paginas">
+            <a href="../Front End - Hiring Coders  HTML CSS JS/jayne.html" ><i class="fa-solid fa-minus"></i></a>
+            <a href="../Front End - Hiring Coders  HTML CSS JS/thiago.html"><i class="fa-solid fa-minus"></i></a>
+            <a href="#"><i class="fa-solid fa-minus"></i></a>
+
+        </div>
+    </main>
+    </main>
+    
+    <Script>
+        function displayAbout () {
+            var arrow = document.getElementById('animation');
+             arrow.classList.toggle('rotate');
+             
+
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+
+        }
+    
+
+    
+    </Script>
+
+</body>
+</html>

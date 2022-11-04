@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 1600px;
+}
+
+body{
+    transition: background 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #11111f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 170px;
+    margin-left: 75px;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 2px;
+}
+h2{
+    font-family: 'Poppins';
+    margin-top: 20px;
+}
+.menu a{
+    font-size: 16px;
+    margin-right: 60px;
+    text-decoration: none;
+    color: #47d7ac;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+.menu a:hover{
+    background-color: #47d7ac;
+    border-radius: 2px;
+    color: white; 
+}
+.pg_inicial{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 2px solid #47d7ac;
+    border-right: 0;
+}
+
+.ajuda{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 2px solid #47d7ac;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        border: 1px solid black;
+        width: 255px;
+        padding: 20px;
+        align-items: center;
+        margin: 10px;
+}
+
+section p{
+    color: #11111f;
+    font-family: 'Sarala';
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.codigo{
+    color: #fff;
+    background-color: #11111f;
+    display: flex;
+    font-family: 'Sarala';
+    font-size: 12px;
+    height: 40px;
+    width: 226px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.codigo:hover{
+    color: #fff;
+    background-color: #47d7ac;
+}
+
+.email{
+    color: #fff;
+    background-color: #ff7b98;
+    display: flex;
+    font-family: 'Sarala';
+    font-size: 12px;
+    height: 40px;
+    width: 226px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.email:hover{
+    color: #fff;
+    background-color: #47d7ac;
+}
+
+.facebook{
+    display: flex;
+    color: #11111f;
+    font-family: 'Sarala';
+    font-size: 12px;
+    height: 38px;
+    width: 224px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.facebook:hover{
+    color: #fff;
+    background-color: #47d7ac;
+}
+.google{
+    display: flex;
+    color: #11111f;
+    font-family: 'Sarala';
+    font-size: 12px;
+    height: 38px;
+    width: 224px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.google:hover{
+    color: #fff;
+    background-color: #47d7ac;
+}
+
+.direitos{
+    width: 226px;
+    line-height: 12px;
+    font-weight: bold;
+}
+
+.cadastro{
+    color: #11111f;
+    font-family: 'Poppins';
+    font-size: 10px;
+    margin-top: 20px;
+
+}
+.cadastre{
+    color: #0000ff;
+    font-family: 'Poppins';
+    font-size: 10px;
+}
+.cadastre:hover{
+    color: #404092;
+
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#usuario{
+    display: flex;
+    color: #11111f;
+    font-family: 'Sarala';
+    font-size: 12px;
+    height: 38px;
+    width: 219px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+#email{
+    display: flex;
+    color: #11111f;
+    font-family: 'Sarala';
+    font-size: 12px;
+    height: 38px;
+    width: 219px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+#password{
+    display: flex;
+    color: #11111f;
+    font-family: 'Sarala';
+    font-size: 12px;
+    height: 38px;
+    width: 219px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+#btn{
+    display: flex;
+    color: #11111f;
+    font-family: 'Sarala';
+    font-size: 12px;
+    height: 40px;
+    width: 226px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    background-color: #47d7ac;
+}
+
+#btn:hover{
+    color: #fff;
+    background-color: #11111f;
+}
+
+.cad_icon{
+    color: #11111f;
+    font-family: 'Poppins';
+    font-size: 12px;
+    margin-top: 20px;
+}
+.cadastro_redes i{
+    color: #11111f;
+    margin: 2px;
+    transition: 0.3s all;
+}
+.cadastro_redes i:hover{
+    color: #212134;
+    transform: scale(1.02);
+}
