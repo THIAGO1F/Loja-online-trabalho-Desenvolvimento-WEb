@@ -206,12 +206,12 @@ form{
     color: #11111f;
     font-family: 'Sarala';
     font-size: 12px;
-    height: 38px;
-    width: 219px;
-    margin-bottom: 10px;
+    height: 30px;
+    width: 170px;
     padding-left: 5px;
     text-decoration: none;
-    border: 1px solid black;
+    border: none;
+    /*border: 1px solid black;*/
     justify-content: center;
     align-items: center;
     outline: none;
@@ -222,12 +222,12 @@ form{
     color: #11111f;
     font-family: 'Sarala';
     font-size: 12px;
-    height: 38px;
-    width: 219px;
-    margin-bottom: 10px;
+    height: 30px;
+    width: 170px;
     padding-left: 5px;
     text-decoration: none;
-    border: 1px solid black;
+    border: none;
+    /*border: 1px solid black;*/
     justify-content: center;
     align-items: center;
     outline: none;
@@ -238,16 +238,38 @@ form{
     color: #11111f;
     font-family: 'Sarala';
     font-size: 12px;
-    height: 38px;
-    width: 219px;
-    margin-bottom: 10px;
+    height: 30px;
+    width: 170px;
     padding-left: 5px;
     text-decoration: none;
-    border: 1px solid black;
+    border: none;
+    /*border: 1px solid black;*/
     justify-content: center;
     align-items: center;
     outline: none;
 }
+
+
+.div_inputs{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    height: 38px;
+    margin-bottom: 10px;
+}
+.div_inputs i{
+    margin-right: 3px;
+    color: #11111f;
+    margin-left: 5px;
+}
+
+#ver_senha{
+    cursor: pointer;
+}
+#ver_senha:hover{
+    color: #47d7ac;
+}
+
 
 #btn{
     display: flex;
