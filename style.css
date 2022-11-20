@@ -184,7 +184,6 @@ header {
     height: 50px;
     padding: 15px;
     
-    
 }
 .produtos{
     text-align: center;
@@ -266,7 +265,7 @@ a{
     background-color: #11111f;
     height: 200px;
     width: 170px;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.508);
     transition: 0.3s all;
 }
@@ -420,7 +419,7 @@ form input:hover{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 300px;
     align-items: center;
 }
 

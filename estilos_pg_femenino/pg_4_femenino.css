@@ -181,6 +181,7 @@ header {
     height: 50px;
     padding: 15px;
     border-top: 0.1px solid #47d7ac44;
+    background-color: #11111f;
 }
 .produtos{
     text-align: center;
@@ -288,7 +289,7 @@ a{
     background-color: #11111f;
     height: 200px;
     width: 170px;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.508);
     transition: 0.3s all;
 }
@@ -346,40 +347,210 @@ a{
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 1px;
-    border: 2px solid rgba(0, 0, 0, 0.513);
-    border-radius: 100px;
+    border: 1.5px solid rgba(0, 0, 0, 0.513);
+    border-radius: 2px;
     font-size: 12px;
+}
+.continua_paginas a:hover{
+    background-color: #11111f;
+    color: #ffff;
 }
 .pg_4{
     background-color: #11111f76;
 }
 
+
 footer{
-    height: 80px;
+    height: 400px;
     background-color: #11111f;
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal_foot{
+    display: flex;
+
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.foot a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Sarala';
+}
+.foot a:hover{
+    color: rgb(204, 196, 196);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
     justify-content: center;
     align-items: center;
 }
- body{
-    background-color: #11111f;
- }
-footer p{
+
+form h4{
+    text-decoration: none;
     color: #ffff;
-    margin-top: 10px;
-    font-family: 'Poppins';
-    font-size: 9px;
-    line-height: 10px;
+    font-family: 'Sarala';
+    font-size: 14px;
 }
 
-footer a{
+form input{
+    height: 35px;
+    width: 80%;
+    margin: 5px;
+    outline: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    transition: 0.3s all;
+    box-shadow: 1px 1px 1px rgba(245, 245, 220, 0.117);
+    font-family: 'Sarala';
+}
+
+form input:hover{
+    background-color: #d7faf0;
+}
+
+#btn_entrar{
+    font-family: 'Sarala';
+    outline: none;
+    border: none;
+    background-color: #00ffb388;
+}
+
+#btn_entrar:hover{
+    background-color: #47d7ac;
+}
+
+.ajuda{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.ajuda h4{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Sarala';
+}
+
+.ajuda nav{
+    display: flex;
+    flex-direction: column;
+    color: rgb(227, 222, 222);
+    margin-top: 5px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    
+}
+
+.ajuda a{
+    color: rgb(216, 216, 216);
+}
+.ajuda a:hover{
+    color: rgb(204, 196, 196);
     text-decoration: underline;
-    color: #ffff;
-    font-family: 'Poppins';
-    font-size: 9px;
-    line-height: 10px;
 }
 
+.social_pagamento{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.social_pagamento h4{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Sarala';
+    margin-top: 15px;
+}
+
+.social_pagamento i{
+    color: #ffff;
+    font-size: 25px;
+    margin: 15px;
+}
+.social_pagamento i:hover{
+    color: #47d7ac;
+
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons_pagamento i{
+    font-size: 35px;
+}
+
+.final_foot{
+    display: flex;  
+    margin-top: 40px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.politica_terms a{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    font-family: 'Sarala';
+    font-size: 12px;
+    margin-left: 50px;
+}
+.politica_terms a:hover{
+    text-decoration: underline;
+    color: rgb(156, 155, 155);
+
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.informacoes p{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    font-family: 'Sarala';
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.informacoes a{
+    color: blue;
+}
+.informacoes a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.linha{
+    border: 1px solid #ffffff97;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
 
 
