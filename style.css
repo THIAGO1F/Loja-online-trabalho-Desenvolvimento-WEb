@@ -260,6 +260,7 @@ a{
     
 }
 
+
 #container_produtos_eseciais{
     background-color: #1f111438;
     display: flex;
@@ -316,7 +317,7 @@ a{
 
 .produtos_especiais input:hover{
     background-color: #d7faf0;
-    transform: rotate(4deg);
+    transform: rotate(360deg);
     /*transform: scale(1.02);*/
     
 }
