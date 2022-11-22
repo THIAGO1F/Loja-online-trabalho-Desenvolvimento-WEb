@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #11111f;
+    width: 100%;
+}
+
+
+.container_logo img{
+    width: 130px;
+    margin-left: 100px;
+}
+
+.container_menu{
+    margin-right: 100px;
+}
+
+
+.container_menu a{
+    margin: 5px;
+    padding: 7px;
+    text-decoration: none;
+    color: #91e7cd;
+    font-family: 'Sarala';
+    font-size: 13px;
+    transition: 0.3s all;
+}
+
+.container_menu a:hover{
+    background-color: #91e7cd;
+    color: #11111f;
+}
+
+.carousel_container{
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin-top: 1rem;
+}
+.carousel{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide{
+    width: 100vw;
+    text-align: center;
+}
+
+.slide img{
+    object-fit: cover;
+    height: 395px;
+    width: 800px;
+}
+
+.slide h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    color: #11111f;
+    font-family: 'Sarala';
+    margin-bottom: 15px;
+}
+
+
+.seta{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    opacity: 0.8;
+}
+
+.seta_esquerda{
+left: 2rem;
+}
+
+.seta_direita{
+    right: 2rem;
+}
+
+
+
+
+.integrantes_container{
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+.carrosel_integrantes{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.integrantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+
+.informacoes_integrantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes_integrantes p{
+    width: 200px;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.stars{
+    display: flex;
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide_integrantes{
+    width: 100vw;
+    text-align: center;
+}
+
+.slide_integrantes img{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.slide_integrantes h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    color: #11111f;
+    font-family: 'Sarala';
+    margin-bottom: 15px;
+}
+
+
+.seta{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    opacity: 0.8;
+}
+
+.seta_esquerda{
+left: 2rem;
+}
+
+.seta_direita{
+    right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.informacoes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #11111f;
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 0 76%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.conheca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    background-color: #91e7cd;
+    margin-top: 50px;
+    margin: 30px;
+}
+
+
+
+#arrow{
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+
+@keyframes blink{
+    to {
+        visibility: hidden;
+    }
+}
+
+#animation{
+    transition: 300ms;
+}
+.rotate{
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active{
+    display: block !important;
+}
+
+#about p{
+    max-width: 600px;
+    
+}
+#about2 p{
+    max-width: 600px;
+    
+}
+
+
+
+
+#about2 p{
+    max-width: 600px;
+    
+}
+

@@ -24,3 +24,12 @@ login
 linkar o botão sobre em todas as paginas
 se der criar mais 4 paginas
 colocar o favicon nas outtras paginas
+
+
+
+
+section{
+    background-color: hotpink;
+    height: 400px;
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 0 76%);
+}
