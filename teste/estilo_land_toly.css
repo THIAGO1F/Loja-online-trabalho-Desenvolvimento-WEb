@@ -102,15 +102,13 @@ left: 2rem;
 }
 
 
-
-
 .integrantes_container{
     overflow: hidden;
     position: relative;
     height: 80vh;
     width: 100%;
     margin-top: 1rem;
-    ba
+
 }
 .carrosel_integrantes{
     display: flex;
@@ -121,21 +119,11 @@ left: 2rem;
     transition: transform 0.4s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.int_grantes{
+    background-color: #11111f;
+    height: 450px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 76%);
+}
 
 
 
@@ -163,27 +151,19 @@ left: 2rem;
     font-size: 12px;
     font-weight: bold;
     margin: 10px;
+    color: rgb(220, 220, 220);
 }
+.informacoes_integrantes h3{
+    font-family: 'Sarala';
+    color: white;
+
+}
+
 
 .stars{
     display: flex;
     color: yellow;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .slide_integrantes{
@@ -195,6 +175,7 @@ left: 2rem;
     object-fit: cover;
     height: 200px;
     width: 200px;
+    border-radius: 100%;
 }
 
 .slide_integrantes h1{
@@ -219,7 +200,7 @@ left: 2rem;
 }
 
 .seta_esquerda{
-left: 2rem;
+    left: 2rem;
 }
 
 .seta_direita{
@@ -227,40 +208,11 @@ left: 2rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .informacoes{
     width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
-    background-color: #11111f;
     clip-path: polygon(0 0, 100% 0, 100% 67%, 0 76%);
     display: flex;
     flex-direction: row;
@@ -272,25 +224,33 @@ left: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
-    background-color: #91e7cd;
-    margin-top: 50px;
+    text-align: justify;
+    padding: 5px;
+    width: 300px;
+    margin-top: 10px;
     margin: 30px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.297);
 }
 
 
+.conheca i{
+    font-size: 40px;
+    color: #11111f;
+    margin-bottom: 10px;
+    color: #47d7ac;
+}
 
+.conheca h3{
+    font-family: 'Sarala';
+}
+
+
+/*
 #arrow{
     font-size: 30px;
     cursor: pointer;
     animation: blink 1s steps(5, start) infinite;
-}
-
-
-@keyframes blink{
-    to {
-        visibility: hidden;
-    }
 }
 
 #animation{
@@ -301,24 +261,50 @@ left: 2rem;
     transition: 300ms;
 }
 
+
+
+*/
+
+@keyframes blink{
+    to {
+        visibility: hidden;
+    }
+}
+
 .active{
     display: block !important;
 }
 
 #about p{
-    max-width: 600px;
+    width: 300px;
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 10px;
     
 }
 #about2 p{
-    max-width: 600px;
+    width: 300px;
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 10px;
+}
+#about a{
+    text-decoration: none;
+    color: blue;  
+}
+
+#about a:hover{
+    text-decoration: underline;
+    color: blue;  
+}
+#about2 a{
+    text-decoration: none;
+    color: blue;
     
 }
 
-
-
-
-#about2 p{
-    max-width: 600px;
-    
-}
 
