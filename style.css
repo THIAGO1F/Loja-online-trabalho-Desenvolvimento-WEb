@@ -25,6 +25,10 @@ header {
     height: 110px;
     padding-bottom: 10px;
     margin-left: 29px;
+    transition: 0.3s all;
+}
+.logo:hover{
+    transform: scale(1.05);
 }
 
 .rede_sociais{

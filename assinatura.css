@@ -25,7 +25,15 @@ header{
 header img{
     width: 130px;
     margin-left: 75px;
+    transition: 0.3s all;
+    cursor: pointer;
 }
+header img:hover{
+    transform: scale(1.05);
+}
+
+
+
 .menu a{
     font-size: 12px;
     margin-right: 60px;

@@ -105,7 +105,7 @@ left: 2rem;
 .integrantes_container{
     overflow: hidden;
     position: relative;
-    height: 80vh;
+    height: 50vh;
     width: 100%;
     margin-top: 1rem;
 
@@ -122,7 +122,7 @@ left: 2rem;
 .int_grantes{
     background-color: #11111f;
     height: 450px;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 76%);
+   
 }
 
 
@@ -133,6 +133,8 @@ left: 2rem;
     align-items: center;
     margin-top: 100px;
 }
+
+
 
 
 
@@ -156,6 +158,20 @@ left: 2rem;
 .informacoes_integrantes h3{
     font-family: 'Sarala';
     color: white;
+
+}
+.informacoes_integrantes a{
+    font-family: 'Sarala';
+    color: white;
+    text-decoration: none;
+    
+
+}
+.informacoes_integrantes a:hover{
+    font-family: 'Sarala';
+    color: white;
+    text-decoration: underline;
+
 
 }
 
@@ -193,10 +209,11 @@ left: 2rem;
     border: 0;
     cursor: pointer;
     position: absolute;
-    top: 30%;
+    top: 60%;
     transform: translateY(-50%);
-    font-size: 5rem;
+    font-size: 4rem;
     opacity: 0.8;
+    color: #91e7cd;
 }
 
 .seta_esquerda{
@@ -210,14 +227,14 @@ left: 2rem;
 
 .informacoes{
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    clip-path: polygon(0 0, 100% 0, 100% 67%, 0 76%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 80%);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    margin-top: 100px;
 }
 
 .conheca{
@@ -227,10 +244,14 @@ left: 2rem;
     text-align: justify;
     padding: 5px;
     width: 300px;
-    margin-top: 10px;
     margin: 30px;
     border-radius: 7px;
     box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.297);
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.conheca:hover{
+    box-shadow: 3px 3px 4px 2px #47d7ac;
 }
 
 
@@ -307,4 +328,115 @@ left: 2rem;
     
 }
 
+#about2 ul{
+    width: 300px;
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 2px;    
+}
+#about2 li{
+    margin-left: 30px;
+}
 
+
+
+
+.tecnologias{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #11111f;
+}
+
+.container_tecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 5px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.297);
+    cursor: pointer;
+    transition: 0.3s all;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_tecnologias h3{
+    color: white;
+    font-family: 'Sarala';
+    font-size: 20px;
+}
+.container_tecnologias h3{
+    color: white;
+    font-family: 'Sarala';
+    font-size: 20px;
+    margin: 5px;
+}
+#icon_html{
+    font-size: 50px;
+    color: rgba(255, 77, 0, 0.637);
+}
+
+#icon_css{
+    font-size: 50px;
+    color: rgba(0, 17, 255, 0.637);
+}
+
+#icon_js{
+    font-size: 50px;
+    color: rgba(255, 255, 0, 0.637);
+}
+
+
+.html:hover{
+    box-shadow: 3px 3px 4px 2px rgba(255, 77, 0, 0.637);
+}
+.css:hover{
+    box-shadow: 3px 3px 4px 2px rgba(0, 17, 255, 0.637);
+}
+.js:hover{
+    box-shadow: 3px 3px 4px 2px rgba(255, 255, 0, 0.637);
+}
+
+
+#conteudo_html p{
+    width: 300px;
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 10px;
+    color: white;
+    
+}
+
+
+
+
+#conteudo_css p{
+    width: 300px;
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 10px;
+    color: white;
+}
+#conteudo_js p{
+    width: 300px;
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 10px;
+    color: white;
+}

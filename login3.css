@@ -26,6 +26,11 @@ header{
 header img{
     width: 170px;
     margin-left: 75px;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+header img:hover{
+    transform: scale(1.05);
 }
 
 h1{
